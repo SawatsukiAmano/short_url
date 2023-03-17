@@ -1,0 +1,60 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# golang
+lastupdate.tmp
+main.db
+short_url_go/short_url_go
+short_url_go/data/main.db
+short_url_go/swagger/*
+short_url_go/swagger.zip
+short_url_go/go.mod
+
+# cache
+cache_file/*
+nohup.out
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node
+node_modules
+dist
+dist-ssr
+*.local
+yarn.lock
+package-lock.json
+
+# Editor directories and files
+*/.vscode
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#data
+server.crt
+erver.key
+
+
+
